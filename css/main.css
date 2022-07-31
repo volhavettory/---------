@@ -1,0 +1,432 @@
+/* прижать футер вниз*/
+body {
+    box-sizing: border-box;
+}
+
+.content {
+    min-height: calc(100vh-310px);
+}
+
+footer {
+    height: 302px;
+    margin-top: 8px;
+}
+
+/* переменные в css в заголовке стиля*/
+
+:root {
+    --white: #F9F9F9;
+    --red: #E95258;
+    --grey: #32495E;
+    --darkgrei: #333333;
+    --lightgrey: #8093AC;
+    --whitegrey: #F3F5FA;
+    --blue: #176BD9;
+    --whietbluu: #C5D9F3;
+}
+
+/* пример ввода */
+.cardio {
+    background-color: var(--red);
+}
+
+/* заголовки кардио, травма*/
+:root {
+    --font-family-title: "TT Hoves";
+    --font-size-title: 28px;
+    --font-weight-title: 800;
+    --line-height-title: 36px;
+}
+
+/* заголовки наши услуги,вопрос ответ, фото и видео отчеты,
+прайс лист,нас рекомендуют,контакты,
+дополнительная информация,коротко о нас,почему мы */
+:root {
+    --font-family-subtitle: TT Hoves;
+    --font-size-subtitle: 44px;
+    --font-weight-subtitle: 800;
+    --line-height-subtitle: 52px;
+
+}
+
+/* текст на странице часто */
+
+:root {
+    --font-family-text: TT Hoves;
+    --font-size-text: 14px;
+    --font-weight-text: 600;
+    --line-height-text: 17.43px;
+
+}
+
+/* пример ввода.title__cardio {
+   
+    font-size: var(--font-family-subtitle);
+    font-family: var(--font-family-subtitle);
+    font-weight: var(--font-weight-title);
+}*/
+
+
+
+/*
+
+.main {
+    max-width: 1400px;
+    height: 800px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+.header__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.logo {}
+
+.logo__img {
+    background: url("/Vector.png") no-repeat;
+    padding-top: 0;
+    background-size: cover;
+    -moz-background-size: cover;
+    background-position: center;
+}
+
+
+
+.logo__text {}
+
+.menu {}
+
+.menu__list {
+    display: flex;
+
+}
+
+.menu__item {
+    margin-left: 40px;
+}
+
+.menu__link {}
+
+.cardio {
+    background-color: var(--red);
+
+}
+
+.cardio__img {
+    position: absolute;
+    width: 395px;
+    height: 557px;
+    left: 396px;
+    top: 243px;
+
+}
+
+.title__cardio {
+    font-size: var(--font-size-title);
+    font-family: var(--font-family-title);
+    font-weight: var(--font-weight-title);
+}
+
+
+
+
+.cardio__text {
+    width: 220px;
+    height: 120px;
+    position: absolute;
+    left: 379px;
+    top: 322px;
+}
+
+.cardio__list {
+    display: flex;
+}
+
+.cardio__item {}
+
+.cardio__link {}
+
+.travma {
+
+    background-color: #f9f9f9;
+}
+
+.travma__innet {}
+
+.title__travma {}
+
+.travma__text {}
+
+.travma__list {}
+
+.travma__item {}
+
+.travma__link {}*/
+
+/* кнопка Все услуги и Позвони мне */
+
+.botton-services__serv {
+    display: inline-block;
+    border: 1px solid var(--darkgrei);
+    border-radius: 25px;
+    height: 50px;
+    color: var(--darkgrei);
+    padding: 17px 44px 17px 44px;
+    font-size: var(--font-size-text);
+    font-family: var(--font-family-text);
+    font-weight: var(--font-weight-text);
+
+}
+
+.botton {
+    color: var(--white);
+    border: 1px solid var(--white);
+}
+
+/*//кнопка все услуги и позвони мне*/
+
+/* footer */
+footer {
+    width: 100%;
+    height: 302px;
+    background: var(--darkgrei);
+    color: var(--white);
+    font-size: var(--font-size-text);
+    font-family: var(--font-family-text);
+    font-weight: var(--font-weight-text);
+    line-height: var(--line-height-text);
+
+}
+
+.conteiner {
+    max-width: 1170px;
+    height: 100%;
+    margin: 0 auto;
+    padding-left: 5px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 1fr;
+    grid-template-rows: 40px 222px 40px;
+
+}
+
+.grid>div:nth-child(1) {
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+.grid>div:nth-child(2) {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+.grid>div:nth-child(3) {
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+
+.grid>div:nth-child(4) {
+    grid-column: 5/6;
+    grid-row: 2/3;
+}
+
+.footer-logo {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 80% 20%;
+    justify-content: space-between;
+}
+
+a {
+    color: var(--white);
+}
+
+li {
+    list-style-type: none;
+}
+
+ul {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.footer-menu__title {
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 20px;
+    padding-bottom: 10px;
+
+}
+
+.footer-contacts__title {
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 20px;
+    padding-bottom: 10px;
+}
+
+.footer-contacts__social {
+    padding-top: 5px;
+}
+
+.footer-up__logo {
+    display: grid;
+    justify-items: center;
+}
+
+.footer-up-logo__text {
+    writing-mode: vertical-rl;
+    padding-top: 10px;
+}
+
+/*//footer*/
+
+/*our-services*/
+.our-services {
+    background: var(--grey);
+    height: 100%;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.our-services__title {
+
+    text-align: left;
+    font-size: var(--font-size-subtitle);
+    font-family: var(--font-family-subtitle);
+    font-weight: var(--font-weight-subtitle);
+    color: var(--white);
+}
+
+.botton-services {
+    text-align: center;
+}
+
+.our-services-innet {
+    display: flex;
+    margin: 0 -10px;
+
+}
+
+.our-services__item {
+    padding-bottom: 20px;
+    margin: 0 +10px
+}
+
+.our-services__red {
+    background-color: var(--red);
+}
+
+h3 {
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 20px;
+    color: var(--white);
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+p {
+    font-size: var(--font-size-text);
+    font-family: (--font-family-text);
+    font-weight: var(--font-weight-text);
+    color: var(--white);
+    padding-left: 10px;
+}
+
+.our-servcices__top {
+
+    position: relative;
+
+}
+
+.our-servcices__top::after {
+    content: url(/ion_pulse.svg);
+    position: absolute;
+    left: 80px;
+    top: 80px;
+}
+
+/* адаптив, при изменении раз-ра экрна шрифты изменяются,
+  ставим в конце страницы*/
+
+@media screen and (max-width : 768px) {
+    :root {
+        --font-family-title: TT Hoves;
+        --font-size-title: 18px;
+        --font-weight-title: 800;
+        --line-height-title: 24px;
+        --font-family-subtitle: TT Hoves;
+        --font-size-subtitle: 34px;
+        --font-weight-subtitle: 800;
+        --line-height-subtitle: 52px;
+        --font-family-text: TT Hoves;
+        --font-size-text: 12px;
+        --font-weight-text: 600;
+        --line-height-text: 14.49px;
+
+    }
+
+}
+
+@media screen and (max-width : 320px) {
+    :root {
+        --font-family-title: TT Hoves;
+        --font-size-title: 16px;
+        --font-weight-title: 800;
+        --line-height-title: 24px;
+        --font-family-subtitle: TT Hoves;
+        --font-size-subtitle: 18px;
+        --font-weight-subtitle: 800;
+        --line-height-subtitle: 26px;
+        --font-family-text: TT Hoves;
+        --font-size-text: 12px;
+        --font-weight-text: 600;
+        --line-height-text: 14.49px;
+
+    }
+
+    /* для футера адаптив  */
+    .grid {
+        display: grid;
+        grid-template-columns: 2fr 2fr 1px;
+        grid-template-rows: 30px 1fr 30px;
+        grid-gap: 5px;
+
+    }
+
+    .grid>div:nth-child(1) {
+        grid-column: 1/4;
+        grid-row: 2/3;
+    }
+
+    .grid>div:nth-child(2) {
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+
+    .grid>div:nth-child(3) {
+        grid-column: 2/3;
+        grid-row: 3/4;
+    }
+
+    .grid>div:nth-child(4) {
+        grid-column: 4/5;
+        grid-row: 2/3;
+    }
+
+    .footer-pravo {
+        display: none;
+    }
+
+    .footer-up-logo__text {
+        display: none;
+    }
+}
